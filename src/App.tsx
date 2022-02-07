@@ -10,7 +10,6 @@ import {Hire} from "./hire/Hire";
 
 function App() {
 
-
     return (
         <div className="App">
             <Header/>

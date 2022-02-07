@@ -2,7 +2,7 @@
   "name": "portfolio-react-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coolcrazyfox.github.io/portfplio-react",
+  "homepage": "https://coolcrazyfox.github.io/portfolio-react",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",
