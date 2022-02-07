@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfplio-react/static/css/main.b5c9581b.chunk.css",
-    "main.js": "/portfplio-react/static/js/main.3096d534.chunk.js",
-    "main.js.map": "/portfplio-react/static/js/main.3096d534.chunk.js.map",
-    "runtime-main.js": "/portfplio-react/static/js/runtime-main.f69b0c02.js",
-    "runtime-main.js.map": "/portfplio-react/static/js/runtime-main.f69b0c02.js.map",
-    "static/js/2.ec00a2a8.chunk.js": "/portfplio-react/static/js/2.ec00a2a8.chunk.js",
-    "static/js/2.ec00a2a8.chunk.js.map": "/portfplio-react/static/js/2.ec00a2a8.chunk.js.map",
-    "index.html": "/portfplio-react/index.html",
-    "precache-manifest.3e1a35228a6e6c80f481edf0448d4416.js": "/portfplio-react/precache-manifest.3e1a35228a6e6c80f481edf0448d4416.js",
-    "service-worker.js": "/portfplio-react/service-worker.js",
-    "static/css/main.b5c9581b.chunk.css.map": "/portfplio-react/static/css/main.b5c9581b.chunk.css.map",
-    "static/js/2.ec00a2a8.chunk.js.LICENSE.txt": "/portfplio-react/static/js/2.ec00a2a8.chunk.js.LICENSE.txt",
-    "static/media/Social-network.jpg": "/portfplio-react/static/media/Social-network.b23c5139.jpg",
-    "static/media/todolist.jpg": "/portfplio-react/static/media/todolist.4a79f8b3.jpg"
+    "main.css": "/portfolio-react/static/css/main.b5c9581b.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.c7ef3128.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c7ef3128.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.9285a5dd.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.9285a5dd.js.map",
+    "static/js/2.ec00a2a8.chunk.js": "/portfolio-react/static/js/2.ec00a2a8.chunk.js",
+    "static/js/2.ec00a2a8.chunk.js.map": "/portfolio-react/static/js/2.ec00a2a8.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.34c3b9e34c76a83673220fcdf20b69b4.js": "/portfolio-react/precache-manifest.34c3b9e34c76a83673220fcdf20b69b4.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.b5c9581b.chunk.css.map": "/portfolio-react/static/css/main.b5c9581b.chunk.css.map",
+    "static/js/2.ec00a2a8.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.ec00a2a8.chunk.js.LICENSE.txt",
+    "static/media/Social-network.jpg": "/portfolio-react/static/media/Social-network.b23c5139.jpg",
+    "static/media/todolist.jpg": "/portfolio-react/static/media/todolist.4a79f8b3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f69b0c02.js",
+    "static/js/runtime-main.9285a5dd.js",
     "static/js/2.ec00a2a8.chunk.js",
     "static/css/main.b5c9581b.chunk.css",
-    "static/js/main.3096d534.chunk.js"
+    "static/js/main.c7ef3128.chunk.js"
   ]
 }
