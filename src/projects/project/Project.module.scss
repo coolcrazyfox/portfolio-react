@@ -1,0 +1,73 @@
+@import '../../common/styles/sass/_var';
+@import '../../common/styles/sass/mixins';
+
+.Project {
+  width: 450px;
+  background-color: #b9aa45;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  /*text-align: center ;*/
+  .image {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: $bgColor;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.3;
+    }
+
+    .viewBtn {
+      border: 1px solid $textColor;
+      background-color: rgba(27, 42, 47, 0.69);
+      padding: 10px 20px;
+      color: $textColor;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+    /*background-color: #111517;*/
+    background-color: $bgSecondColor;
+
+    .projectTitle {
+      //font-family: 'Montserrat', $fontFamily;
+      //font-size: 16px;
+      //line-height: 1.2;
+      //color: $textColor;
+      @include text($fontFamily, 16px, 1.2);
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+
+
+    }
+
+    .description {
+      //font-size: 12px;
+      //color: $textColor;
+      //font-family: 'Poppins', sans-serif;
+      //line-height: 1.6;
+      @include text($textFontFamily, 12px, 1.8);
+      font-weight: 400;
+
+    }
+  }
+}
+
+
+
+
