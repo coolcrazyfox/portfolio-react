@@ -1,3 +1,5 @@
+/*@import '../../common/styles/sass/_var';*/
+/*@import "../../common/styles/sass/mixins";*/
 
 .Header{
     height: 80px;
@@ -5,5 +7,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+    /*background-color: #111517;*/
+    background: url("./header.jpg");
+}
+a{
+    color: whitesmoke;
+    padding-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration: none;
 }

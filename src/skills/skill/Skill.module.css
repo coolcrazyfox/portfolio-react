@@ -1,6 +1,6 @@
 .Skill{
     width: 250px;
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0);
     display: flex;
     flex-direction: column;
     align-items: center;

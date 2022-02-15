@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Nav.module.css';
+import sCont from '../../src/common/styles/Container.module.css'
 
 export function Nav(props: any) {
     return(
