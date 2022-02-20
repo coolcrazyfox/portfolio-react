@@ -1,6 +1,7 @@
 
 .Footer{
-    background-color: #97b78a;
+    height: 100vh;
+    background: url("./36921-stena_neon_potertosti.jpg");
 }
 .footerContainer{
     flex-direction: column;
