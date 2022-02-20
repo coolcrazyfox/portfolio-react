@@ -1,0 +1,48 @@
+@import '../common/styles/sass/_var.scss';
+/*.SkillsBlock{*/
+/*    !*min-height: 100vh;*!*/
+/*    !*background-color: #111517;*!*/
+/*    !*background: url("../header/header.jpg") ;*!*/
+/*    background: url("./36921.jpg") ;*/
+/*    padding: 100px 0;*/
+/*}*/
+/*.skillsContainer{*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
+/*.title{*/
+/*    background-color: coral;*/
+/*}*/
+/*.skills{*/
+/*    !*border: 1px solid;*!*/
+/*    border: none;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+.SkillsBlock {
+  /*height: 100vh;*/
+  background: url("./19545.jpg");
+  padding: 100px 0;
+
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+      @media screen and (min-width: 1126px) {
+        justify-content: space-between;
+      }
+    }
+  }
+}
