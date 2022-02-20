@@ -38,6 +38,11 @@
       z-index: 1;
     }
   }
+  .image:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
 
   .projectInfo {
     padding: 25px 20px;
