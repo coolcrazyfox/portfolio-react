@@ -1,6 +1,7 @@
 
 .HireBlock{
-    background-color: #7bbb8f;
+    height: 100vh;
+    background: url("./mainPhoto1.jpg");
 }
 .hireContainer{
     flex-direction: column;
