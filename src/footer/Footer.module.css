@@ -1,7 +1,7 @@
 
 .Footer{
-    height: 700vh;
-    background: url("./36921-stena_neon_potertosti.jpg");
+    height: 70vh;
+    /*background: url("./36921-stena_neon_potertosti.jpg") ;*/
 }
 .footerContainer{
     flex-direction: column;

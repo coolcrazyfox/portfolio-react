@@ -1,7 +1,8 @@
 
 .MainBlock{
+    position: relative;
     height: 100vh;
-    background: url("./first1920x1080.jpg");
+    /*background: url("./first1920x1080.jpg");*/
 }
 
 .text{
