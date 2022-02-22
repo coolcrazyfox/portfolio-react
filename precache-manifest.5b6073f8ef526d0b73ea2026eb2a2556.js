@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bde8bf62bddb7b7c11b21e44cb24005",
+    "revision": "335cda26e48152c028821f97b297f6b4",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "4e05c0e44a4d2acbab3e",
-    "url": "/portfolio-react/static/css/main.5418d36a.chunk.css"
+    "revision": "f5b33e9848ad43b4b079",
+    "url": "/portfolio-react/static/css/main.14fdfd98.chunk.css"
   },
   {
     "revision": "84866c082fce0bf783ec",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/js/2.27f13d1a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e05c0e44a4d2acbab3e",
+    "revision": "f5b33e9848ad43b4b079",
     "url": "/portfolio-react/static/js/main.24381e43.chunk.js"
   },
   {
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "02f7588a62f7ec3ff725a1f1ade50432",
     "url": "/portfolio-react/static/media/19545.02f7588a.jpg"
+  },
+  {
+    "revision": "9d80f1b008a918eebb1b348f6ac0bae4",
+    "url": "/portfolio-react/static/media/36921-stena_neon_potertosti.9d80f1b0.jpg"
+  },
+  {
+    "revision": "963ba304ffe5e7cccccb23b0cb0b1885",
+    "url": "/portfolio-react/static/media/48390-linii_tekstura_kozha.963ba304.jpg"
   },
   {
     "revision": "ad4216162438b2395fb7eb05a9d5081b",
