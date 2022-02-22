@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "335cda26e48152c028821f97b297f6b4",
+    "revision": "44b498f60706ccb9efd693dfe811141a",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "f5b33e9848ad43b4b079",
-    "url": "/portfolio-react/static/css/main.14fdfd98.chunk.css"
+    "revision": "0c7a84507a1012fa26c9",
+    "url": "/portfolio-react/static/css/main.2d68c690.chunk.css"
   },
   {
-    "revision": "84866c082fce0bf783ec",
-    "url": "/portfolio-react/static/js/2.27f13d1a.chunk.js"
+    "revision": "fe952aafd921538308de",
+    "url": "/portfolio-react/static/js/2.7fb732bb.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/portfolio-react/static/js/2.27f13d1a.chunk.js.LICENSE.txt"
+    "url": "/portfolio-react/static/js/2.7fb732bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5b33e9848ad43b4b079",
-    "url": "/portfolio-react/static/js/main.24381e43.chunk.js"
+    "revision": "0c7a84507a1012fa26c9",
+    "url": "/portfolio-react/static/js/main.a7d16e52.chunk.js"
   },
   {
     "revision": "1fc31d89481d049a6c64",
     "url": "/portfolio-react/static/js/runtime-main.9285a5dd.js"
   },
   {
+    "revision": "e874576b4057aba23f1f5ee692e93adf",
+    "url": "/portfolio-react/static/media/17627-trotuarnaya_plitka.e874576b.jpg"
+  },
+  {
     "revision": "02f7588a62f7ec3ff725a1f1ade50432",
     "url": "/portfolio-react/static/media/19545.02f7588a.jpg"
   },
   {
-    "revision": "9d80f1b008a918eebb1b348f6ac0bae4",
-    "url": "/portfolio-react/static/media/36921-stena_neon_potertosti.9d80f1b0.jpg"
-  },
-  {
-    "revision": "963ba304ffe5e7cccccb23b0cb0b1885",
-    "url": "/portfolio-react/static/media/48390-linii_tekstura_kozha.963ba304.jpg"
+    "revision": "030767eff2b3ba6ab9568c700e290198",
+    "url": "/portfolio-react/static/media/27028-grafika_3d_abstraktsiya.030767ef.jpg"
   },
   {
     "revision": "ad4216162438b2395fb7eb05a9d5081b",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79046a553ce2e9ea7fc1992ede20e610",
     "url": "/portfolio-react/static/media/js.79046a55.png"
-  },
-  {
-    "revision": "48c2945fa7fc46e9f3c7301427609cd8",
-    "url": "/portfolio-react/static/media/mainPhoto1.48c2945f.jpg"
   },
   {
     "revision": "bf50797a4b7ba0fe8f0be8a8f70c8139",
