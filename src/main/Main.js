@@ -2,11 +2,14 @@ import React from 'react';
 import s from './Main.module.css';
 import sCont from '../../src/common/styles/Container.module.css'
 import { Parallax } from 'react-parallax';
-import mainImage from './first1920x1080.jpg'
+import mainImage from './rain_-_28236 (Original).gif'
+import ReactPlayer from 'react-player'
+import {Header} from "../header/Header";
 
 export function Main() {
     return(
         <Parallax  bgImage={mainImage}  strength={500}>
+            <Header/>
             <div className={s.MainBlock}>
                 <div className={sCont.container}>
                     <div className={s.text}>
@@ -19,6 +22,13 @@ export function Main() {
 
             </div>
         </Parallax>
+
+        // <div>
+        //     <video src="/frame.mp4" autoPlay loop muted>
+        //         <h1>adventure awaits</h1>
+        //     </video>
+        // </div>
+        // <ReactPlayer controls url='https://www.youtube.com/watch?v=ysz5S6PUM-U'/>
 
     );
 }

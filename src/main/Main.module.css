@@ -1,21 +1,30 @@
 
-.MainBlock{
+.MainBlock {
     position: relative;
     height: 100vh;
-    /*background: url("./first1920x1080.jpg");*/
+    /*background: url("./Chip - 84086.gif") ;*/
 }
 
-.text{
+.text {
     width: 300px;
     background-color: rgba(100, 149, 237, 0);
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 
 }
-.photo{
+
+.photo {
     width: 300px;
     height: 400px;
     /*background-color: darkseagreen;*/
     background: url("./photo.jpg");
 
 }
+
+/*video {*/
+/*    object-fit: cover;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: fixed;*/
+/*    z-index: -1;*/
+/*}*/
