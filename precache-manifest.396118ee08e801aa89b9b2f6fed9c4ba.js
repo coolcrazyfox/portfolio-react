@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a35485c70e51b0a515a1fb72cc547766",
+    "revision": "3dc3192cb92bf25bd86e7872575518db",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "cf009f595ceddc8e8b64",
-    "url": "/portfolio-react/static/css/main.43d0ea2c.chunk.css"
+    "revision": "46fdbeb98f918da31d07",
+    "url": "/portfolio-react/static/css/main.dbb5ffa1.chunk.css"
   },
   {
     "revision": "f0e94fcf0b96eaaa8def",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/js/2.928bfab0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf009f595ceddc8e8b64",
-    "url": "/portfolio-react/static/js/main.07a82e79.chunk.js"
+    "revision": "46fdbeb98f918da31d07",
+    "url": "/portfolio-react/static/js/main.9d6f6310.chunk.js"
   },
   {
     "revision": "1fc31d89481d049a6c64",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/css3.145c1a7b.png"
   },
   {
-    "revision": "2efd75060ece9d94bad9bf050fc2f198",
-    "url": "/portfolio-react/static/media/flask.2efd7506.png"
+    "revision": "ea92008be92e35cc7b6d33e12110dcee",
+    "url": "/portfolio-react/static/media/flask.ea92008b.png"
   },
   {
     "revision": "718cad629dbab1b10d8bb4858cf9d210",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/html-5-icon.eeb48815.png"
   },
   {
-    "revision": "79046a553ce2e9ea7fc1992ede20e610",
-    "url": "/portfolio-react/static/media/js.79046a55.png"
+    "revision": "fad3a57446df8e28f19fd56a65e50baa",
+    "url": "/portfolio-react/static/media/javascript.fad3a574.gif"
   },
   {
     "revision": "bf50797a4b7ba0fe8f0be8a8f70c8139",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a4a8cdb1911958456f00425469e926d6",
     "url": "/portfolio-react/static/media/rain_-_28236 (Original).a4a8cdb1.gif"
+  },
+  {
+    "revision": "0149e72bd4c66a2f3ce6c40c5361ef31",
+    "url": "/portfolio-react/static/media/react.0149e72b.gif"
   },
   {
     "revision": "c5793602af9331df693b132ca92b656e",
