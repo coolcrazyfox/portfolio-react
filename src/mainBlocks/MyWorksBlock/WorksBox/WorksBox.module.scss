@@ -1,0 +1,96 @@
+@import './../../../styles/variables';
+
+.MyWorksItem {
+  position: relative;
+  z-index: 111;
+  display: inline-block;
+  height: 100%;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.78);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 50px;
+  border: 3px groove $BorderColor;
+  border-radius: 10px;
+  transition: all 2s ease;
+  &:hover{
+    border: 2px groove rgba(37, 36, 36, 0.68);
+    background-color: rgba(58, 57, 57, 0.89);
+    transform: scale(1.1);
+    transition: all 3s ease;
+    border-radius: 10px;
+  }
+  @media (max-width: 1308px) {
+    height: 400px;
+    width: 380px;
+    margin-bottom: 50px;
+  }
+  @media (max-width: 440px) {
+    height: 300px;
+    width: 280px;
+  }
+
+  .MyWorksItemTitle {
+    height: 65%;
+    //border: 1px solid black;
+
+    .MyWorksItemTitleImg {
+      background-size: cover;
+      background-position: initial;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .MyWorksItemMain {
+    height: 35%;
+    //border: 1px solid black;
+    text-align: center;
+    p {
+      margin: 10px 0 0 10px;
+    }
+
+    .MyWorksItemMainName {
+      p {
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase !important;
+        color: $SecondPrimaryTextColor;
+        line-height: 60px;
+      }
+
+      @media (max-width: 440px) {
+        p {
+          line-height: 20px;
+        }
+      }
+    }
+
+    .MyWorksItemMainDescr {
+      p {
+
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase !important;
+        color: $FirstPrimaryTextColor;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

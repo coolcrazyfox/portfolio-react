@@ -1,0 +1,69 @@
+@import './../../styles/variables';
+
+.MyWorksItemTitleBtn {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: rgba(49, 49, 47, 0.53);
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase !important;
+  transition: all 0.8s ease;
+  margin: 10px;
+
+  &:hover {
+    padding: 8px 30px;
+    background-color: #c5c2c2;
+    -webkit-box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.8s ease;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+    &:hover {
+      color: $FirstPrimaryTextColor;
+      transition: all 0.8s ease;
+    }
+  }
+
+  @media(max-width: 590px) {
+    padding: 4px 4px;
+  }
+}
+
+.MyWorksItemTitleBtnTrue {
+  button {
+    display: inline-block;
+    padding: 4px 15px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase !important;
+    transition: all 0.8s ease;
+    font-size: 25px;
+    color: $SecondPrimaryTextColor;
+    background-color: rgba(79, 82, 79, 0.79);
+    -webkit-box-shadow: -4px 5px 4px 1px rgba(192, 185, 185, 0.4);
+    -moz-box-shadow: -4px 5px 4px 1px rgba(192, 185, 185, 0.4);
+    box-shadow: -4px 5px 4px 1px rgba(192, 185, 185, 0.4);
+    &:hover {
+      padding: 8px 30px;
+      background-color: $SecondPrimaryTextColor;
+      transition: all 0.8s ease;
+    }
+      &:hover {
+        color: $FirstPrimaryTextColor;
+        transition: all 0.8s ease;
+      }
+    }
+
+    @media(max-width: 590px) {
+      padding: 4px 4px;
+    }
+  }

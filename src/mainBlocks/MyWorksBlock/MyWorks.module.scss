@@ -1,0 +1,95 @@
+@import './../../styles/variables';
+.blockTitle {
+  width: 100%;
+  min-height: 600px;
+  background-color: rgb(0, 0, 0);
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.9fr;
+    grid-template-rows: 0.3fr 2fr 0.3fr;
+    grid-template-areas:
+    "h"
+    "h"
+    ".";
+    @media (max-width: 1308px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .MyWorksBlock {
+      grid-area: h;
+      display: grid;
+      grid-auto-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.3fr 1.7fr;
+      grid-template-areas:
+    "h"
+    "c";
+      @media (max-width: 1308px) {
+        margin: -40px 0 0 0;
+      }
+      @media (max-width: 1155px) {
+        margin: 0 0 0 0;
+      }
+      @media (max-width: 850px) {
+        margin: 0;
+      }
+
+      .MyWorksTitle {
+        grid-area: h;
+        min-height: 150px;
+        text-align: center;
+        font-size: 51px;
+        line-height: 62px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase !important;
+
+        p {
+          display: inline-block;
+          color: $FirstPrimaryTextColor;
+        }
+
+        span {
+          display: inline-block;
+          color: $SecondPrimaryTextColor;
+        }
+
+        @media (max-width: 1308px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .MyWorksMain {
+        grid-area: c;
+        //border: 1px solid black;
+        min-height: 380px;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 1308px) {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

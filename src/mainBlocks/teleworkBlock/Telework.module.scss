@@ -1,0 +1,123 @@
+@import './../../styles/variables';
+
+
+.blockTitle {
+  width: 100%;
+  min-height: 240px;
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1.9fr;
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  grid-template-areas:
+    "."
+    "h"
+    ".";
+
+  .container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    grid-area: h;
+
+    .teleWorkBlock {
+      background-color: rgba(0, 0, 0, 0.78);
+      position: relative;
+      z-index: 111;
+      height: 168px;
+      border: 3px groove $BorderColor;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      -webkit-box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+      box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      padding: 10px 0;
+
+      span {
+        font-size: 45px;
+        display: inline-block;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase !important;
+        color: $SecondPrimaryTextColor;
+        line-height: 60px;
+        transition: all 0.8s ease;
+        margin-left: 10px;
+
+        &:hover {
+          color: $FirstPrimaryTextColor;
+          transition: all 0.8s ease;
+          cursor: default;
+        }
+      }
+
+      p {
+        font-size: 45px;
+        display: inline-block;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase !important;
+        color: $FirstPrimaryTextColor;
+        line-height: 60px;
+        transition: all 0.8s ease;
+
+
+        &:hover {
+          color: $SecondPrimaryTextColor;
+          transition: all 0.8s ease;
+          cursor: default;
+        }
+      }
+
+      @media (max-width: 1070px) {
+        span {
+          font-size: 30px;
+        }
+        p {
+          font-size: 30px;
+        }
+      }
+
+      @media (max-width: 757px) {
+        span {
+          font-size: 28px;
+        }
+        p {
+          font-size: 28px;
+        }
+      }
+      @media (max-width: 675px) {
+        span {
+          font-size: 25px;
+        }
+        p {
+          font-size: 25px;
+        }
+      }
+      @media (max-width: 590px) {
+        span {
+          font-size: 22px;
+        }
+        p {
+          font-size: 22px;
+        }
+
+      }
+      @media (max-width: 540px) {
+        span {
+          margin: 0;
+          font-size: 28px;
+        }
+        p {
+          font-size: 28px;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

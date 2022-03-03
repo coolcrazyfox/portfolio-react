@@ -1,0 +1,30 @@
+
+@import './../../../styles/variables';
+.navOne {
+    margin: 0 25px 0 0;
+    transition: all 0.5s;
+  &:hover {
+    border: 3px solid $triangleBlockColor;
+    padding: 5px 10px;
+    border-radius: 13px;
+    background-color: $triangleBlockColor;
+    -webkit-transform: rotateZ(15deg);
+    -ms-transform: rotateZ(15deg);
+    transform: rotateZ(15deg);
+    transition: all 0.5s ease;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 25px;
+  }
+  @media (max-width: 630px) {
+    margin-left: 0;
+  }
+  .skillName {
+    margin-left: 5px;
+    @media (max-width: 630px) {
+      display: none;
+    }
+  }
+}
+
+

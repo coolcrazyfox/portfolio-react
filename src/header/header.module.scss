@@ -1,0 +1,57 @@
+
+
+.header_title {
+  width: 100%;
+  min-height: 113px;
+  background-color: black;
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-areas:
+    ". . ."
+    ". . h"
+    ". . .";
+    @media (max-width: 1200px) {
+      width: 70%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+    ". . ."
+    "h h h"
+    ". . .";
+      margin-right: 90px;
+    }
+    @media (max-width: 1150px) {
+          margin-right: 140px;
+    }
+    @media (max-width: 1000px) {
+          margin-right: 114px;
+    }
+    @media (max-width: 870px) {
+          margin-right: 100px;
+    }
+    @media (max-width: 760px) {
+          margin-right: 80px;
+    }
+    @media (max-width: 650px) {
+          margin-right: 60px;
+    }
+    @media (max-width: 630px) {
+      margin-right: 75px;
+
+    }
+    @media (max-width: 480px) {
+      margin-right: 53px;
+
+    }
+  }
+}
+
+
+
+
