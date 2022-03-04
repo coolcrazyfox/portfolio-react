@@ -70,7 +70,6 @@
         display: inline-block;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.04);
         text-transform: uppercase !important;
         text-align: center;
         white-space: nowrap;
@@ -94,6 +93,14 @@
           //  border-radius: 10px;
           //  background-color: $triangleBlockColor;
           //}
+        }
+        .btnMusic{
+          display: block;
+          width: 60px;
+          height: 60px;
+          border-radius: 20px;
+          left: 100%;
+          top: 70%;
         }
         span {
           font-size: 51px;

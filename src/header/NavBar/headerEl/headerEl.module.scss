@@ -8,9 +8,9 @@
     padding: 5px 10px;
     border-radius: 13px;
     background-color: $triangleBlockColor;
-    -webkit-transform: rotateZ(15deg);
-    -ms-transform: rotateZ(15deg);
-    transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
     transition: all 0.5s ease;
   }
   @media (max-width: 1200px) {

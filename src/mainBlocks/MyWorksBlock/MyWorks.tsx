@@ -31,12 +31,12 @@ export const MyWorks = () => {
                         <span>My</span> <p>works</p>
                     </div>
                     <div className={MyWorksMain}>
-                        <WorksBox href={'https://coolcrazyfox.github.io/Social-network/'} styleImg={socialPrjImg} descriptions={'Look at my social network'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/social_network-v/#/'} styleImg={socialPrjImg} descriptions={'Look at my social network'}
                                   name={'social network'}/>
                         {/*https://coolcrazyfox.github.io/counter-v2/*/}
                         {/*https://coolcrazyfox.github.io/Social-network/*/}
                         {/*https://coolcrazyfox.github.io/Todolist/*/}
-                        <WorksBox href={'https://coolcrazyfox.github.io/Todolist/'} styleImg={todolistPrjImg} descriptions={'Look at my todolist'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/my-counter-v/'} styleImg={todolistPrjImg} descriptions={'Look at my todolist'}
                                   name={'todolist'}/>
 
 
