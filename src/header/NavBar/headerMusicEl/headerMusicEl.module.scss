@@ -1,0 +1,29 @@
+
+@import './../../../styles/variables';
+.navOne {
+    margin: 0 25px 0 0;
+    transition: all 0.5s;
+  &:hover {
+    border: 2px solid $triangleBlockColor;
+    //padding: 5px 0;
+    border-radius: 13px;
+    background-color: rgba(159, 41, 41, 0.88);
+    //-webkit-transform: rotateZ(2deg);
+    //-ms-transform: rotateZ(2deg);
+    //transform: rotateZ(2deg);
+    //transition: all 0.5s ease;
+  }
+  .imgM{
+    width: 40px;
+    height: 40px;
+    border-radius: 14px ;
+  }
+  @media (max-width: 1300px) {
+    margin-left: 25px;
+  }
+  @media (max-width: 630px) {
+    margin-left: 0;
+  }
+}
+
+
