@@ -31,7 +31,7 @@
         justify-content: center;
         text-align: center;
       }
-      @media(max-width: 620px) {
+      @media(max-width: 615px) {
         margin: 0 0;
       }
 
@@ -59,46 +59,185 @@
 
         @media(max-width: 1150px) {
           border-radius: 20%;
-          width: 270px;
+          width: 151px;
           height: 270px;
           border: 4px solid #252525;
-          margin: 0 17px 25px 93px;
+          margin: 0 17px 0px 169px;
+        }
+        @media(max-width: 651px) {
+          border-radius: 20%;
+          width: 151px;
+          height: 203px;
+          border: 4px solid #252525;
+          margin: 0 31px 0px 169px;
+        }
+        @media(max-width: 615px) {
+          border-radius: 20%;
+          width: 151px;
+          height: 214px;
+          border: 4px solid #252525;
+          margin: 0 17px 0px 117px;
+        }
+        @media(max-width: 501px) {
+          border-radius: 20%;
+          width: 151px;
+          height: 177px;
+          border: 4px solid #252525;
+          margin: 0 -41px 25px 20px;
+        }
+        @media(max-width: 361px) {
+          border-radius: 20%;
+          width: 151px;
+          height: 177px;
+          border: 4px solid #252525;
+          margin: 0 -41px 25px 20px;
         }
       }
 
-      .btnMusic{
-        //display: flex;
-        width: 60px;
-        height: 60px;
-        //border-radius: 20px;
-        //left: 100%;
-        //top: 70%;
-        z-index: 111;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        position: relative;
-        border-radius: 30px;
-        left: -1039%;
-        bottom: 0%;
-
-      }
-
       .aboutMeText {
-        display: inline-block;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bold;
-        text-transform: uppercase !important;
-        text-align: center;
-        white-space: nowrap;
+        //display: inline-block;
+        //font-family: 'Poppins', sans-serif;
+        //font-weight: bold;
+        //text-transform: uppercase !important;
+        //text-align: center;
+        //white-space: nowrap;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .liText{
+          position: relative;
+          list-style: none;
+          padding-left: 55px;
+        }
+
+        //.nameContainer{
+        //  position: relative;
+        //  min-width: 400px;
+        //  height: 100vh;
+        //  display: flex;
+        //  justify-content: center;
+        //  align-items: center;
+        //  overflow: hidden;
+        //}
+        .nameText{
+          font-size: 2em;
+          font-weight: 600;
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          //display: flex;
+        }
+        .nameText span{
+          transition: 1.5s;
+        }
+        .nameText:hover span{
+          filter: blur(20px);
+          opacity: 0;
+          transform: scale(2);
+        }
+        .nameText span:nth-child(12n+1){
+          transition-delay: 0s;
+        }
+        .nameText span:nth-child(12n+2){
+          transition-delay: 0.1s;
+        }
+        .nameText span:nth-child(12n+3){
+          transition-delay: 0.2s;
+        }
+        .nameText span:nth-child(12n+4){
+          transition-delay: 0.3s;
+        }
+        .nameText span:nth-child(12n+5){
+          transition-delay: 0.4s;
+        }
+        .nameText span:nth-child(12n+6){
+          transition-delay: 0.5s;
+        }
+        .nameText span:nth-child(12n+7){
+          transition-delay: 0.6s;
+        }
+        .nameText span:nth-child(12n+8){
+          transition-delay: 0.7s;
+        }
+        .nameText span:nth-child(12n+9){
+          transition-delay: 0.8s;
+        }
+        .nameText span:nth-child(12n+10){
+          transition-delay: 0.9s;
+        }
+        .nameText span:nth-child(12n+11){
+          transition-delay: 1s;
+        }
+        .nameText span:nth-child(12n+12){
+          transition-delay: 1.1s;
+        }
+
+
+        .h2Text{
+          font-size: 2em;
+          font-weight: 600;
+          color: $FirstPrimaryTextColor;
+          letter-spacing: 5px;
+          cursor: pointer;
+        }
+        .h2Text span{
+          transition: 0.5s;
+        }
+        .h2Text:hover span:nth-child(1){
+          margin-right: 5px;
+        }
+        .h2Text:hover span:nth-child(1):after{
+          content: "I'm";
+        }
+        .h2Text:hover span:nth-child(2){
+          margin-left: 10px;
+        }
+        .h2Text:hover span{
+          color: $FirstPrimaryTextColor;
+          text-shadow: 0 0 10px #fff,
+          0 0 20px #fff,
+          0 0 40px #fff,
+          0 0 80px #fff,
+          0 0 100px #fff,
+          0 0 120px #fff;
+        }
+
+        .aText{
+          position: relative;
+          font-size: 3em;
+          text-decoration: none;
+          line-height: 1em;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: transparent;
+          -webkit-text-stroke: 2px rgba(255, 255, 255, 0.04);
+        }
+        .aText::before{
+          content: attr(data-text);
+          position: absolute;
+          color: $FirstPrimaryTextColor;
+          width: 0;
+
+          overflow: hidden;
+          transition: 3s;
+          border-right: 8px solid $FirstPrimaryTextColor;
+          -webkit-text-stroke: 1px $FirstPrimaryTextColor;
+        }
+        .aText:hover::before{
+          width: 100%;
+          filter: drop-shadow(0 0 25px $FirstPrimaryTextColor);
+        }
+
 
         h1 {
-          font-size: 51px;
+          font-size: 3rem;
           line-height: 62px;
           font-weight: 700;
           margin: 18px 0 10px;
           position: relative;
-          padding-left: 70px;
+          padding-left: 5px;
           color: $FirstPrimaryTextColor;
 
           //&:before {
@@ -114,24 +253,24 @@
         }
 
         span {
-          font-size: 51px;
+          font-size:  3rem;
           line-height: 62px;
           font-weight: 700;
           color: $SecondPrimaryTextColor;
-          padding-left: 40px;
+          padding-left: 10px;
         }
         p {
-          font-size: 39px;
+          font-size: 40px;
           line-height: 62px;
           font-weight: 700;
           color: $SecondPrimaryTextColor;
-          padding-left: 40px;
+          padding-left: 12px;
         }
 
         @media(max-width: 1290px) {
           position: relative;
-          left: -5%;
-          h1 {
+          left: 7%;
+          h1, h2 {
             padding: 0;
 
             &:before {
@@ -144,40 +283,65 @@
         }
         @media(max-width: 1150px) {
           text-align: center;
-          h1 {
+          h1,h2 {
             font-size: 38px;
             line-height: 48px;
             color: $FirstPrimaryTextColor;
-            margin: 0 19px 25px 93px;
+            margin: 0 19px 25px 1px;
           }
           span {
             font-size: 38px;
             line-height: 48px;
-            margin: 0 19px 25px 93px;
+            margin: 0 19px 25px 1px;
             color: $SecondPrimaryTextColor;
           }
         }
-        @media(max-width: 620px) {
+        @media(max-width: 651px) {
           span {
             font-size: 32px;
             line-height: 34px;
           }
-          h1 {
+          h1,h2 {
             font-size: 32px;
             line-height: 34px;
+            margin: 0 -5px 25px 1px;
+          }
+          p{
+            padding-left: 0;
+            text-align: center;
           }
 
         }
-        @media(max-width: 500px) {
+        @media(max-width: 501px) {
           span {
             font-size: 27px;
-            line-height: 30px;
-            margin: 0 42px 25px 93px;
+            line-height: 16px;
+            margin: 0 21px 25px -7px;
           }
-          h1 {
+          h1,h2 {
             font-size: 27px;
-            line-height: 30px;
-            margin: 0 42px 25px 93px;
+            line-height: 16px;
+            margin: 0 21px 25px -7px;
+          }
+          p{
+            font-size: 35px;
+          }
+
+        }
+        @media(max-width: 361px) {
+          span {
+            font-size: 21px;
+            line-height: 15px;
+            margin: 0 17px 25px -7px;
+          }
+          h1,h2 {
+            font-size: 21px;
+            line-height: 15px;
+            margin: 0 21px 25px -7px;
+          }
+          p{
+            font-size: 21px;
+            line-height: 0;
           }
         }
       }
@@ -218,7 +382,7 @@
         //transform: rotate(-15deg);
         //left: -59%;
         //top: 0;
-        @media(max-width: 1150px) {
+        @media(max-width: 360px) {
           display: none;
         }
       }

@@ -20,7 +20,7 @@ export const Nav = () => {
           <HeaderElement img={skills} text={'Skills'} alt={'MySkills'} href={'#MySkills'}/>
           <HeaderElement img={cases} text={'Projects'} alt={'Portfolio'} href={'#MyWorksBlock'}/>
           <HeaderElement img={contacts} text={'Contacts'} alt={'Contacts'} href={'#footer'}/>
-            <HeaderMusicElement img={imgMusicIcon}/>
+          <HeaderMusicElement img={imgMusicIcon}/>
         </div>
     )
 }

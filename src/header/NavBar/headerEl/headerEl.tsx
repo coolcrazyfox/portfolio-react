@@ -20,7 +20,6 @@ export const HeaderElement = (props: NavPropsType) => {
             <div className={navOne}>
                 <a href={href}>
                     <img src={img} alt={alt}/>
-
                     <div className={skillName}>
                         {text}
                     </div>

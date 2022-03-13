@@ -16,7 +16,7 @@ import SassImg from './skillBox/skillImgIcon/sass.png';
 import Rotate from 'react-reveal/Fade'
 
 
-const {skillsTitle, blockTitle, skillsMain, container,skillsBlock} = s;
+const {skillsTitle, blockTitle, skillsMain, container,skillsBlock, h1Text} = s;
 
 
 export const Skills = () => {
@@ -25,7 +25,18 @@ export const Skills = () => {
             <div className={container}>
                 <div className={skillsBlock}>
                 <div className={skillsTitle}>
-                    <span>My</span> <p>skills</p>
+                    <h1 className={h1Text}>
+                        <span>m</span>
+                        <span>y</span>
+                        <span>&nbsp;</span>
+                        <span>s</span>
+                        <span>k</span>
+                        <span>i</span>
+                        <span>l</span>
+                        <span>l</span>
+                        <span>s</span>
+                    </h1>
+                    {/*<span>My</span> <p>skills</p>*/}
                 </div>
                 <div className={skillsMain}>
                     <SkillBox skill={'React'} skillDescr={''} skillImg={reactImg} progress={75}/>
