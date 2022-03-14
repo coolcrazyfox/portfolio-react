@@ -346,7 +346,8 @@
         }
       }
       .colorBlock {
-        background: url(imgAboutMe/second.jpg) ;
+        background: url(imgAboutMe/silk-folds.gif) ;
+        //background: url(imgAboutMe/second.jpg) ;
         //background: url(imgAboutMe/19545.jpg)no-repeat;
         //background: url(imgAboutMe/36985.jpg) ;
         //background: url(imgAboutMe/45476.jpg) ;
@@ -363,8 +364,8 @@
         //background: url(imgAboutMe/37024-koja_material.jpg) ;
 
         position: fixed;
-        height: 235%;
-        width: 100%;
+        height: 100vh;//235%
+        width: 100vw;
         transform: rotate(360deg);
         left: 0%;
         top: 10%;
@@ -382,6 +383,9 @@
         //transform: rotate(-15deg);
         //left: -59%;
         //top: 0;
+        //@media screen and(max-width: 1350px) {
+        //  width: 100vw;
+        //}
         @media(max-width: 360px) {
           display: none;
         }

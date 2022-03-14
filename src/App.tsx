@@ -9,7 +9,7 @@ import {Preloader} from './mainBlocks/Contacts/Preloader/Preloader';
 function App() {
     return (<>
             <DotRing />
-            <Header/>
+            {/*<Header/>*/}
             <Main/>
             <Footer/>
         </>

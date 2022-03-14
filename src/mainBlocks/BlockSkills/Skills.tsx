@@ -27,8 +27,7 @@ export const Skills = () => {
                 <div className={skillsTitle}>
                     <h1 className={h1Text}>
                         <span>m</span>
-                        <span>y</span>
-                        <span>&nbsp;</span>
+                        <span>y&nbsp;&nbsp;</span>
                         <span>s</span>
                         <span>k</span>
                         <span>i</span>

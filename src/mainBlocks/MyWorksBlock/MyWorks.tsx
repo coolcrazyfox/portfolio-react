@@ -11,6 +11,7 @@ const {
     container,
     MyWorksBlock,
     MyWorksMain,
+    h1Text
 } = s;
 
 
@@ -28,7 +29,16 @@ export const MyWorks = () => {
             <div className={container}>
                 <div className={MyWorksBlock}>
                     <div className={MyWorksTitle}>
-                        <span>My</span> <p>works</p>
+                        <h1 className={h1Text}>
+                            <span>m</span>
+                            <span>y&nbsp;&nbsp;</span>
+                            <span>w</span>
+                            <span>o</span>
+                            <span>r</span>
+                            <span>k</span>
+                            <span>s</span>
+                        </h1>
+                        {/*<span>My</span> <p>works</p>*/}
                     </div>
                     <div className={MyWorksMain}>
                         <WorksBox href={'https://coolcrazyfox.github.io/social_network-v/#/'} styleImg={socialPrjImg} descriptions={'Look at my social network'}
@@ -38,7 +48,10 @@ export const MyWorks = () => {
                         {/*https://coolcrazyfox.github.io/Todolist/*/}
                         <WorksBox href={'https://coolcrazyfox.github.io/my-counter-v/'} styleImg={todolistPrjImg} descriptions={'Look at my todolist'}
                                   name={'todolist'}/>
-
+                        <WorksBox href={'https://coolcrazyfox.github.io/social_network-v/#/'} styleImg={socialPrjImg} descriptions={'Look at my social network'}
+                                  name={'social network'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/my-counter-v/'} styleImg={todolistPrjImg} descriptions={'Look at my todolist'}
+                                  name={'todolist'}/>
 
                     </div>
                 </div>

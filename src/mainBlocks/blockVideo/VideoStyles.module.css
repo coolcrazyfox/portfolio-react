@@ -1,0 +1,56 @@
+#video{
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*height: 100% ;*/
+    /*object-fit: cover;*/
+    /*z-index: -1;*/
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+.hero .content{
+    /*text-align: center;*/
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100% ;
+    top: 40vh;
+
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*background: rgba(0, 0, 0, 0.5);*/
+    /*color: #f1f1f1;*/
+    /*width: 100%;*/
+    /*padding: 20px;*/
+}
+/*.hero .content h1{*/
+/*    font-size: 4rem;*/
+/*    color: whitesmoke;*/
+/*}*/
+/*.hero p{*/
+/*    font-size: 1.8rem;*/
+/*    font-weight: 200;*/
+/*    text-transform: uppercase;*/
+/*    margin-bottom: 1.6rem;*/
+/*    color: whitesmoke;*/
+/*}*/
+/*.hero .btn{*/
+/*    margin: 1rem .2rem;*/
+/*}*/
+@media screen and (max-width: 640px){
+    .content h1{
+        font-size: 3rem;
+    }
+    .content p{
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
+}

@@ -18,17 +18,6 @@ type skillBoxPropsType = {
     skillImg: string
     progress: number
 }
-
-const ProgressBarStyle={
-    root:'white',
-    path: 'red',
-    trail: "gray",
-    text : 'yellow',
-    background: 'green'
-}
-
-
-
 export const SkillBox = (pr: skillBoxPropsType) => {
 
     const {skill, skillDescr, skillImg, progress} = pr;

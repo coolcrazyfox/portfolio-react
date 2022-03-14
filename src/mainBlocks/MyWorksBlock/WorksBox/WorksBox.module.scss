@@ -4,8 +4,8 @@
   position: relative;
   z-index: 111;
   display: inline-block;
-  height: 100%;
-  width: 450px;
+  max-height: 80%;
+  max-width: 450px;
   background-color: rgba(0, 0, 0, 0.78);
   text-align: center;
   font-size: 18px;
@@ -24,10 +24,31 @@
     transition: all 3s ease;
     border-radius: 10px;
   }
-  @media (max-width: 1308px) {
-    height: 400px;
-    width: 380px;
-    margin-bottom: 50px;
+  @media (max-width: 1520px) {
+    font-size: 17px;
+  }
+  @media (max-width: 1440px) {
+    height: 481px;
+    width: 250px;
+    font-size: 17px;
+    margin-right: 16px;
+  }
+  @media (max-width: 1352px) {
+    height: 356px;
+    width: 233px;
+    margin: 16px;
+    font-size: 14px;
+  }
+
+  @media (max-width:1350px) {
+    height: 356px;
+    width: 531px;
+    margin: 16px;
+  }
+  @media (max-width: 670px) {
+    height: 356px;
+    width: 300px;
+    margin: 16px;
   }
   @media (max-width: 440px) {
     height: 300px;
@@ -75,8 +96,8 @@
 
     .MyWorksItemMainDescr {
       p {
-
         font-weight: 500;
+        //font-size: 12px;
         font-family: 'Poppins', sans-serif;
         text-transform: uppercase !important;
         color: $FirstPrimaryTextColor;
