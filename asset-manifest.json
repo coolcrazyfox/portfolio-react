@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.d0f1bb1f.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.67dee3f6.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.67dee3f6.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.5a9aaa43.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.5a9aaa43.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.1d78e2b6.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.1d78e2b6.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/portfolio-react/static/css/2.6c0f60ba.chunk.css",
@@ -25,6 +25,7 @@
     "static/media/billie-eilish-everything-i-wanted.f7976292.mp3": "/portfolio-react/static/media/billie-eilish-everything-i-wanted.f7976292.mp3",
     "static/media/codewars.10a629fe.png": "/portfolio-react/static/media/codewars.10a629fe.png",
     "static/media/contact.5514d455.png": "/portfolio-react/static/media/contact.5514d455.png",
+    "static/media/counter.76b44cc3.gif": "/portfolio-react/static/media/counter.76b44cc3.gif",
     "static/media/css3.5888769b.png": "/portfolio-react/static/media/css3.5888769b.png",
     "static/media/error.3b8bd8e7.png": "/portfolio-react/static/media/error.3b8bd8e7.png",
     "static/media/flask.a3319b33.png": "/portfolio-react/static/media/flask.a3319b33.png",
@@ -39,13 +40,14 @@
     "static/media/telegram.4ba27902.gif": "/portfolio-react/static/media/telegram.4ba27902.gif",
     "static/media/todolist.7acfbdbe.gif": "/portfolio-react/static/media/todolist.7acfbdbe.gif",
     "static/media/typescript.e0cf5672.svg": "/portfolio-react/static/media/typescript.e0cf5672.svg",
-    "static/media/user1.780a8def.png": "/portfolio-react/static/media/user1.780a8def.png"
+    "static/media/user1.780a8def.png": "/portfolio-react/static/media/user1.780a8def.png",
+    "static/media/webSite.5964db08.gif": "/portfolio-react/static/media/webSite.5964db08.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.1d78e2b6.js",
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.b1fe97d5.chunk.js",
     "static/css/main.d0f1bb1f.chunk.css",
-    "static/js/main.67dee3f6.chunk.js"
+    "static/js/main.5a9aaa43.chunk.js"
   ]
 }
