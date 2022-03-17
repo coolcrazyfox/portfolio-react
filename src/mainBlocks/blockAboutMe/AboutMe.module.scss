@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './../../styles/variables';
 
+
 .blockTitle {
   width: 100%;
   min-height: 400px;
@@ -104,12 +105,12 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        //gap: 20px;
 
         .liText{
           position: relative;
           list-style: none;
-          padding-left: 55px;
+          //padding-left: 55px;
         }
 
         //.nameContainer{
@@ -208,11 +209,11 @@
           position: relative;
           font-size: 3em;
           text-decoration: none;
-          line-height: 1em;
+          line-height: 1.1em;
           letter-spacing: 3px;
-          text-transform: uppercase;
+          //text-transform: uppercase;
           color: transparent;
-          -webkit-text-stroke: 2px rgba(255, 255, 255, 0.04);
+          -webkit-text-stroke: 2px rgba(255, 255, 255, 0);
         }
         .aText::before{
           content: attr(data-text);
@@ -232,13 +233,38 @@
 
 
         h1 {
-          font-size: 3rem;
-          line-height: 62px;
+          //font-size: 3.2rem;
+          //line-height: 62px;
+          //font-weight: 700;
+          //margin: 18px 0 10px;
+          //position: relative;
+          //padding-left: 5px;
+          //color: $FirstPrimaryTextColor;
+
           font-weight: 700;
+          text-align: center;
+          font-size: 3.2rem;
           margin: 18px 0 10px;
+          padding-left: 12px;
+          //font-family: Hack, sans-serif;
+          //text-transform: uppercase;
+          background: linear-gradient(90deg, #000, $FirstPrimaryTextColor, #000);
+          letter-spacing: 5px;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-repeat: no-repeat;
+          background-size: 80%;
+          animation: shine 5s linear infinite;
           position: relative;
-          padding-left: 5px;
-          color: $FirstPrimaryTextColor;
+          @keyframes shine {
+            0% {
+              background-position-x: -500%;
+            }
+            100% {
+              background-position-x: 500%;
+            }
+          }
 
           //&:before {
           //  content: '';
@@ -266,6 +292,86 @@
           color: $SecondPrimaryTextColor;
           padding-left: 12px;
         }
+
+        //div {
+        //  display:inline-block;
+        //  overflow:hidden;
+        //  white-space:nowrap;
+        //  font-size: 40px;
+        //  line-height: 62px;
+        //  font-weight: 700;
+        //  color: $SecondPrimaryTextColor;
+        //  padding-left: 12px;
+        //}
+        //
+        //div:first-of-type {    /* For increasing performance
+        //               ID/Class should've been used.
+        //               For a small demo
+        //               it's okaish for now */
+        //  animation: showup 7s infinite;
+        //}
+        //
+        //div:last-of-type {
+        //  width:0px;
+        //  animation: reveal 7s infinite;
+        //}
+        //
+        //div:last-of-type span {
+        //  margin-left:-355px;
+        //  animation: slidein 7s infinite;
+        //}
+        //
+        //@keyframes showup {
+        //  0% {opacity:0;}
+        //  20% {opacity:1;}
+        //  80% {opacity:1;}
+        //  100% {opacity:0;}
+        //}
+        //
+        //@keyframes slidein {
+        //  0% { margin-left:-800px; }
+        //  20% { margin-left:-800px; }
+        //  35% { margin-left:0px; }
+        //  100% { margin-left:0px; }
+        //}
+        //
+        //@keyframes reveal {
+        //  0% {opacity:0;width:0px;}
+        //  20% {opacity:1;width:0px;}
+        //  30% {width:355px;}
+        //  80% {opacity:1;}
+        //  100% {opacity:0;width:355px;}
+        //}
+
+        .frText {
+          background: 50% 100% / 50% 50% no-repeat
+          radial-gradient(ellipse at bottom, $SecondPrimaryTextColor, transparent, transparent);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          font-size: 40px;
+          line-height: 110px;
+          font-weight: 700;
+          padding-left: 13px;
+          animation: reveal 3000ms ease-in-out forwards 200ms,
+          glow 2500ms linear infinite 2000ms;
+
+          @keyframes reveal {
+            80%{
+              letter-spacing: 8px;
+            }
+            100% {
+              background-size: 300% 300%;
+            }
+          }
+          @keyframes glow {
+            40% {
+              text-shadow: 0 0 8px #fff;
+            }
+          }
+        }
+
+
 
         @media(max-width: 1290px) {
           position: relative;
@@ -399,6 +505,7 @@
     }
   }
 }
+
 
 
 

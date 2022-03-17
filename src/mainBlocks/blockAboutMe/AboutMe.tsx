@@ -5,7 +5,7 @@ import Rotate from 'react-reveal/Fade';
 import Video from "../blockVideo/Video";
 import {Header} from "../../header/header";
 
-const {blockTitle, container, aboutMeTitle, aboutMeText, aboutMePhoto, colorBlock,liText, aText, h2Text, nameContainer, nameText} = s;
+const {blockTitle, container, aboutMeTitle, aboutMeText, aboutMePhoto, colorBlock,liText, aText, h2Text, nameContainer, nameText, frText} = s;
 
 export const AboutMe = () => {
     return (<div id={'AboutMe'} className={blockTitle}>
@@ -21,10 +21,15 @@ export const AboutMe = () => {
 
                     <Rotate top left>
                     <ul className={aboutMeText}>
-                        <h1>Hello.</h1>
-                        {/*<span>My name is</span>*/}
-                        {/*<li className={liText}><a className={aText}  data-text="&nbsp;I'm&nbsp;Andrei&nbsp;Malets">&nbsp;I'm Andrei Malets&nbsp;</a></li>*/}
+                        <h1>Hello. My name is</h1>
 
+                        {/*<li className={liText}><h1>Hello.</h1><a className={aText}  data-text="&nbsp;My&nbsp;name&nbsp;is">&nbsp;My name is&nbsp;</a></li>*/}
+
+                        {/*<div className={nameContainer}>*/}
+                        {/*    <h2 className={nameText}>*/}
+                        {/*        <span>my name is</span>*/}
+                        {/*    </h2>*/}
+                        {/*</div>*/}
                         <div className={nameContainer}>
                             <h2 className={nameText}>
                                 <span>A</span>
@@ -41,7 +46,14 @@ export const AboutMe = () => {
                                 <span>s</span>
                             </h2>
                         </div>
-                        <p>Frontend Developer</p>
+                        <div className={frText}>
+                            Frontend Developer
+                        </div>
+                        {/*<p>Frontend Developer</p>*/}
+                        {/*<div >Frontend</div>*/}
+                        {/*<div >*/}
+                        {/*    <span>Developer</span>*/}
+                        {/*</div>*/}
 
 
                         {/*<h2 className={h2Text}><span></span><span>Frontend Developer</span></h2>*/}

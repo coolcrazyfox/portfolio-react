@@ -7,6 +7,7 @@ import emailjs from 'emailjs-com';
 import {Preloader} from './Preloader/Preloader';
 import OkImg from './OK.png';
 import badImg from './error.png';
+import {TextField} from "@material-ui/core";
 
 const {
     contactsTitle,
@@ -78,7 +79,8 @@ export const Contacts = () => {
                         <p>Contacts</p>
                         <form onSubmit={sendEmail}>
                             <div className={contactsFormBox}>
-                                <input placeholder={'please Enter your name'} type="text" name={'from_name'}/>
+                                {/*<TextField id="outlined-basic" label="please Enter your name" variant="outlined" />*/}
+                                <input placeholder={'Please Enter your name'} type="text" name={'from_name'}/>
                                 <input placeholder={'Enter your email'} type="text" name={'from_email'}/>
                                 <textarea placeholder={'Enter your comments'} name={'message'}/>
                             </div>
