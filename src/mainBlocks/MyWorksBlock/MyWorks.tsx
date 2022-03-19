@@ -50,7 +50,7 @@ export const MyWorks = () => {
                     <div className={MyWorksMain}>
                         <WorksBox href={'https://coolcrazyfox.github.io/social_network-v/#/'} styleImg={socialPrjImg} descriptions={'Look at my social network'}
                                   name={'social network'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/my-counter-v/'} styleImg={todolistPrjImg} descriptions={'Look at my todolist'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/Todolist/'} styleImg={todolistPrjImg} descriptions={'Look at my todolist'}
                                   name={'todolist'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/web-site-v2/'} styleImg={webPrjImg} descriptions={'Look at my Website'}
                                   name={'website'}/>
