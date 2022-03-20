@@ -14,7 +14,9 @@ const {
     blockTitle,
     container,
     contactsFormBox,
-    OkPage
+    OkPage,
+    pText
+
 } = s;
 
 type SendStatusType = 'OK' | 'PENDING' | 'BAD REQUEST'|'START_STATUS'
@@ -76,7 +78,17 @@ export const Contacts = () => {
             <Rotate top left>
                 <div className={container}>
                     <div className={contactsTitle}>
-                        <p>Contacts</p>
+                        <p className={pText}>
+                            <span>C</span>
+                            <span>o</span>
+                            <span>n</span>
+                            <span>t</span>
+                            <span>a</span>
+                            <span>k</span>
+                            <span>t</span>
+                            <span>s</span>
+                        </p>
+                        {/*<p>Contacts</p>*/}
                         <form onSubmit={sendEmail}>
                             <div className={contactsFormBox}>
                                 {/*<TextField id="outlined-basic" label="please Enter your name" variant="outlined" />*/}

@@ -41,16 +41,101 @@
       box-shadow: -16px 21px 13px 8px rgba(0, 0, 0, 0.4);
       background-color: rgba(0, 0, 0, 0.78);
 
-      p {
-        font-size: 45px;
-        display: inline-block;
-        font-weight: 600;
+      //p {
+      //  font-size: 45px;
+      //  display: inline-block;
+      //  font-weight: 600;
+      //  font-family: 'Poppins', sans-serif;
+      //  text-transform: uppercase !important;
+      //  color: $FirstPrimaryTextColor;
+      //  line-height: 60px;
+      //  transition: all 0.8s ease;
+      //}
+
+      .pText{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 0;
+        color: #111;
+        font-size: 3rem;
         font-family: 'Poppins', sans-serif;
         text-transform: uppercase !important;
-        color: $FirstPrimaryTextColor;
+        font-weight: 600;
         line-height: 60px;
         transition: all 0.8s ease;
       }
+      .pText span{
+        display: table-cell;
+        margin-top: 20px;
+        padding: 0;
+        animation: animate 2s linear infinite;
+      }
+      @media screen and(max-width: 1351px) {
+        margin: 0 0 0 0;
+      }
+      @media screen and(max-width: 386px) {
+        .pText{
+          margin-top: -20px;
+          padding: 0;
+        }
+      }
+      .pText span:nth-child(1){
+        animation-delay: 0s;
+      }
+      .pText span:nth-child(2){
+        animation-delay: 0.25s;
+      }
+      .pText span:nth-child(3){
+        animation-delay: 0.5s;
+      }
+      .pText span:nth-child(4){
+        animation-delay: 0.75s;
+      }
+      .pText span:nth-child(5){
+        animation-delay: 1s;
+      }
+      .pText span:nth-child(6){
+        animation-delay: 1.25s;
+      }
+      .pText span:nth-child(7){
+        animation-delay: 1.5s;
+      }
+      .pText span:nth-child(8){
+        animation-delay: 1.75s;
+      }
+      @keyframes animate {
+        0%,100%{
+          color: $SecondPrimaryTextColor;
+          filter: blur(2px);
+          text-shadow: 0 0 10px $triangleBlockColor,
+          0 0 20px $triangleBlockColor,
+          0 0 40px $triangleBlockColor,
+          0 0 80px $triangleBlockColor,
+          0 0 120px $triangleBlockColor,
+          0 0 200px $triangleBlockColor,
+          0 0 300px $triangleBlockColor
+        }
+        5%,90%{
+          color: #363232;
+          filter: blur(0px);
+          text-shadow: none;
+        }
+      }
+
+      //p {
+      //  display: inline-block;
+      //  color: $FirstPrimaryTextColor;
+      //}
+      //
+      //span {
+      //  display: inline-block;
+      //  color: $SecondPrimaryTextColor;
+      //}
+
+
 
       @media(max-width: 815px) {
         justify-content: normal;
@@ -59,9 +144,10 @@
         align-items: center;
         height: 400px;
       }
-      @media(max-width: 385px) {
-        height: 370px;
-        p {
+      @media(max-width: 386px) {
+        height: 350px;
+
+        p ,.pText{
           font-size: 30px;
         }
       }
@@ -105,6 +191,8 @@
         @media(max-width: 520px) {
           width: 250px;
           font-size: 20px;
+          margin-top: 0px;
+          margin-bottom: 10px;
           textarea {
             font-size: 12px;
           }
@@ -112,10 +200,10 @@
             font-size: 12px;
           }
         }
-        @media(max-width: 385px) {
-          margin-top: 25px;
+        @media(max-width: 386px) {
+          margin-top: 0px;
           margin-bottom: 10px;
-          width: 230px;
+          width: 228px;
         }
       }
     }

@@ -14,6 +14,7 @@
     margin: -16px;
   }
 
+
   &:hover {
     padding: 8px 30px;
     background-color: #c5c2c2;
@@ -37,6 +38,8 @@
   @media(max-width: 590px) {
     padding: 4px 4px;
   }
+
+
 }
 
 .MyWorksItemTitleBtnTrue {
@@ -68,9 +71,13 @@
     }
     @media(max-width: 925px) {
       margin-bottom: 16px;
+      font-weight: 400;
+      font-size: 16px;
     }
     @media(max-width: 590px) {
       padding: 4px 4px;
+      font-weight: 200;
+      font-size: 16px;
     }
 
   }

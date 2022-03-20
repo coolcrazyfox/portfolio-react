@@ -23,6 +23,9 @@ dl,
 dd {
     margin: 0;
 }
+
+
+
 body {
     min-height: 100vh;
     scroll-behavior: smooth;
@@ -49,6 +52,7 @@ textarea,
 select {
     font: inherit;
 }
+
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01ms !important;
