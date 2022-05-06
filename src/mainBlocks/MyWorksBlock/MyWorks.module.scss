@@ -29,7 +29,8 @@
       grid-template-rows: 0.3fr 1.7fr;
       grid-template-areas:
     "h"
-    "c";
+    "c"
+    "d";
       @media (max-width: 1350px) {
         margin: 0 0 0 0;
       }
@@ -126,8 +127,19 @@
         }
       }
 
-      .MyWorksMain {
+      .MyWorksFirstBlock {
         grid-area: c;
+        //border: 1px solid black;
+        min-height: 380px;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 1350px) {
+          flex-direction: column;
+
+        }
+      }
+      .MyWorksSecondBlock {
+        grid-area: d;
         //border: 1px solid black;
         min-height: 380px;
         display: flex;
