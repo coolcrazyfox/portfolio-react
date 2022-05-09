@@ -1,6 +1,4 @@
 import s from './headerEl.module.scss';
-
-
 const {skillName, navOne} = s;
 
 type NavPropsType = {
