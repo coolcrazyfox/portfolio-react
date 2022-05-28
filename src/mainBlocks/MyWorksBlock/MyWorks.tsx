@@ -7,6 +7,8 @@ import counterPr from './imgWorks/counter.gif';
 import hanamiPr from './imgWorks/hanami.gif';
 import cardsPrj from './imgWorks/cards.jpg';
 import nextPrj from './imgWorks/next.gif';
+import hotelPrj from './imgWorks/hotel.jpg';
+import naturePrj from './imgWorks/nature.jpg';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
@@ -17,6 +19,7 @@ const {
     MyWorksBlock,
     MyWorksFirstBlock,
     MyWorksSecondBlock,
+    MyWorksThirdBlock,
     h1Text
 } = s;
 
@@ -45,6 +48,12 @@ export const MyWorks = () => {
     const nextPrjImg = {
         backgroundImage: `url(${nextPrj})`
     }
+    const hotelPrjImg = {
+        backgroundImage: `url(${hotelPrj})`
+    }
+    const naturePrjImg = {
+        backgroundImage: `url(${naturePrj})`
+    }
 
     return (<div id={'MyWorksBlock'} className={blockTitle}>
         <Rotate top left>
@@ -72,13 +81,17 @@ export const MyWorks = () => {
                                   name={'hanami'}/>
                     </div>
                     <div className={MyWorksSecondBlock}>
-                        <WorksBox href={'https://coolcrazyfox.github.io/web-site-v2/'} styleImg={webPrjImg} descriptions={'Look at my Website'}
-                                  name={'website'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/my-counter-v/'} styleImg={counterPrjImg} descriptions={'Look at my counter'}
                                   name={'counter'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/cards-project/'} styleImg={cardsPrjImg} descriptions={'Look at my project'}
                                   name={'cards'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/draggable-site/'} styleImg={nextPrjImg}  descriptions={'My next project'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/draggable-site/'} styleImg={hotelPrjImg}  descriptions={'Most Beautiful hotels'}
+                                  name={'Hotels'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/3D-site/'} styleImg={naturePrjImg} descriptions={'Look at my 3d-site'}
+                                  name={'3D-Site'}/>
+                    </div>
+                    <div className={MyWorksThirdBlock}>
+                        <WorksBox href={''} styleImg={nextPrjImg}  descriptions={'My next project'}
                                   name={'next project'}/>
                     </div>
                 </div>

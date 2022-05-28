@@ -30,7 +30,8 @@
       grid-template-areas:
     "h"
     "c"
-    "d";
+    "d"
+    "e";
       @media (max-width: 1350px) {
         margin: 0 0 0 0;
       }
@@ -140,6 +141,17 @@
       }
       .MyWorksSecondBlock {
         grid-area: d;
+        //border: 1px solid black;
+        min-height: 380px;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 1350px) {
+          flex-direction: column;
+
+        }
+      }
+      .MyWorksThirdBlock {
+        grid-area: e;
         //border: 1px solid black;
         min-height: 380px;
         display: flex;
