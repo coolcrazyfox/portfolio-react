@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.abbaebe2.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.dedbbd97.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.dedbbd97.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.c70737e2.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c70737e2.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.ceeb0e75.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.ceeb0e75.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/portfolio-react/static/css/2.6c0f60ba.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/REACT.6934c761.png": "/portfolio-react/static/media/REACT.6934c761.png",
     "static/media/REDUX.4bebbe1e.png": "/portfolio-react/static/media/REDUX.4bebbe1e.png",
     "static/media/billie-eilish-everything-i-wanted.f7976292.mp3": "/portfolio-react/static/media/billie-eilish-everything-i-wanted.f7976292.mp3",
+    "static/media/bmw.53da5adc.gif": "/portfolio-react/static/media/bmw.53da5adc.gif",
     "static/media/codewars.10a629fe.png": "/portfolio-react/static/media/codewars.10a629fe.png",
     "static/media/contact.5514d455.png": "/portfolio-react/static/media/contact.5514d455.png",
     "static/media/counter.76b44cc3.gif": "/portfolio-react/static/media/counter.76b44cc3.gif",
@@ -52,6 +53,6 @@
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.ccc3f43f.chunk.js",
     "static/css/main.abbaebe2.chunk.css",
-    "static/js/main.dedbbd97.chunk.js"
+    "static/js/main.c70737e2.chunk.js"
   ]
 }
