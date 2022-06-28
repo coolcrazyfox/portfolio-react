@@ -11,6 +11,7 @@ import hotelPrj from './imgWorks/hotel.jpg';
 import naturePrj from './imgWorks/nature.jpg';
 import animPrj from  './imgWorks/bmw.gif';
 import countryPrj from  './imgWorks/countries.gif';
+import miamiPrj from  './imgWorks/miami.gif';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
@@ -62,6 +63,9 @@ export const MyWorks = () => {
     const countryPrjImg = {
         backgroundImage: `url(${countryPrj})`
     }
+    const miamiPrjImg = {
+        backgroundImage: `url(${miamiPrj})`
+    }
 
     return (<div id={'MyWorksBlock'} className={blockTitle}>
         <Rotate top left>
@@ -103,6 +107,8 @@ export const MyWorks = () => {
                                   name={'animation slider site'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/countries-app/'} styleImg={countryPrjImg}  descriptions={'Look at my countries-app'}
                                   name={'countries app'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
+                                  name={'Miami'}/>
                         <WorksBox href={''} styleImg={nextPrjImg}  descriptions={'My next project'}
                                   name={'next project'}/>
                     </div>
