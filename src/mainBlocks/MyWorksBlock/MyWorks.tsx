@@ -13,6 +13,7 @@ import animPrj from  './imgWorks/bmw.gif';
 import countryPrj from  './imgWorks/countries.gif';
 import miamiPrj from  './imgWorks/miami.gif';
 import weatheriPrj from  './imgWorks/weather.gif';
+import calendarPrj from  './imgWorks/calendar.jpg';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
@@ -70,6 +71,9 @@ export const MyWorks = () => {
     const weatherPrjImg = {
         backgroundImage: `url(${weatheriPrj})`
     }
+    const calendarPrjImg = {
+        backgroundImage: `url(${calendarPrj})`
+    }
 
     return (<div id={'MyWorksBlock'} className={blockTitle}>
         <Rotate top left>
@@ -104,7 +108,7 @@ export const MyWorks = () => {
                         <WorksBox href={'https://coolcrazyfox.github.io/draggable-site/'} styleImg={hotelPrjImg}  descriptions={'Most Beautiful hotels'}
                                   name={'Hotels'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/3D-site/'} styleImg={naturePrjImg} descriptions={'Look at my 3d-site'}
-                                  name={'3D-Site'}/>
+                                  name={'lovely 3D-Site'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/anim-slider-site/'} styleImg={animPrjImg}  descriptions={'Look at my animation site'}
                                   name={'animation slider site'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/countries-app/'} styleImg={countryPrjImg}  descriptions={'Look at my countries-app'}
@@ -115,8 +119,8 @@ export const MyWorks = () => {
                                   name={'Weather-APP'}/>
                     </div>
                     <div className={MyWorksThirdBlock}>
-                        <WorksBox href={'https://coolcrazyfox.github.io/anim-slider-site/'} styleImg={animPrjImg}  descriptions={'Look at my animation site'}
-                                  name={'animation slider site'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/calendar-app/'} styleImg={calendarPrjImg}  descriptions={'Look at my calendar-app'}
+                                  name={'calendar'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/countries-app/'} styleImg={countryPrjImg}  descriptions={'Look at my countries-app'}
                                   name={'countries app'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
