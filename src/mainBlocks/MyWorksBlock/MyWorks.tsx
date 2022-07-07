@@ -95,16 +95,24 @@ export const MyWorks = () => {
                                   name={'website'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/Hanami/'} styleImg={hanamiPrjImg} descriptions={'Look at my project'}
                                   name={'hanami'}/>
-                    </div>
-                    <div className={MyWorksSecondBlock}>
                         <WorksBox href={'https://coolcrazyfox.github.io/my-counter-v/'} styleImg={counterPrjImg} descriptions={'Look at my counter'}
                                   name={'counter'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/cards-project/'} styleImg={cardsPrjImg} descriptions={'Look at my project'}
                                   name={'cards'}/>
+                    </div>
+                    <div className={MyWorksSecondBlock}>
                         <WorksBox href={'https://coolcrazyfox.github.io/draggable-site/'} styleImg={hotelPrjImg}  descriptions={'Most Beautiful hotels'}
                                   name={'Hotels'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/3D-site/'} styleImg={naturePrjImg} descriptions={'Look at my 3d-site'}
                                   name={'3D-Site'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/anim-slider-site/'} styleImg={animPrjImg}  descriptions={'Look at my animation site'}
+                                  name={'animation slider site'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/countries-app/'} styleImg={countryPrjImg}  descriptions={'Look at my countries-app'}
+                                  name={'countries app'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
+                                  name={'Miami'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}
+                                  name={'Weather-APP'}/>
                     </div>
                     <div className={MyWorksThirdBlock}>
                         <WorksBox href={'https://coolcrazyfox.github.io/anim-slider-site/'} styleImg={animPrjImg}  descriptions={'Look at my animation site'}
