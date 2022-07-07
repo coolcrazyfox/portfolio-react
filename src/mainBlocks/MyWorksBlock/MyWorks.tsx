@@ -12,7 +12,7 @@ import naturePrj from './imgWorks/nature.gif';
 import animPrj from  './imgWorks/bmw.gif';
 import countryPrj from  './imgWorks/countries.gif';
 import miamiPrj from  './imgWorks/miami.gif';
-import weatheriPrj from  './imgWorks/weather.gif';
+import weatherPrj from  './imgWorks/weather.gif';
 import calendarPrj from  './imgWorks/calendar.jpg';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
@@ -69,7 +69,7 @@ export const MyWorks = () => {
         backgroundImage: `url(${miamiPrj})`
     }
     const weatherPrjImg = {
-        backgroundImage: `url(${weatheriPrj})`
+        backgroundImage: `url(${weatherPrj})`
     }
     const calendarPrjImg = {
         backgroundImage: `url(${calendarPrj})`
