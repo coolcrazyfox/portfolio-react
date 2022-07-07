@@ -80,11 +80,13 @@
 
     .MyWorksItemMainName {
       p {
-        font-weight: 600;
+        //font-weight: 300;
+        font-weight: bold;
+        font-size: 14px;
         font-family: 'Poppins', sans-serif;
         text-transform: uppercase !important;
         color: $SecondPrimaryTextColor;
-        line-height: 60px;
+        line-height: 30px;
       }
 
       @media (max-width: 440px) {
@@ -96,8 +98,9 @@
 
     .MyWorksItemMainDescr {
       p {
-        font-weight: 500;
-        //font-size: 12px;
+        font-weight: bold;
+        //font-weight: 300;
+        font-size: 12px;
         font-family: 'Poppins', sans-serif;
         text-transform: uppercase !important;
         color: $FirstPrimaryTextColor;
