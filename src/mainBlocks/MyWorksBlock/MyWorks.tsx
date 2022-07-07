@@ -12,6 +12,7 @@ import naturePrj from './imgWorks/nature.jpg';
 import animPrj from  './imgWorks/bmw.gif';
 import countryPrj from  './imgWorks/countries.gif';
 import miamiPrj from  './imgWorks/miami.gif';
+import weatheriPrj from  './imgWorks/miami.gif';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
