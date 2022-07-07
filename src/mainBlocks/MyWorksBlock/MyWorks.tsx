@@ -8,7 +8,7 @@ import hanamiPr from './imgWorks/hanami.gif';
 import cardsPrj from './imgWorks/cards.jpg';
 import nextPrj from './imgWorks/next.gif';
 import hotelPrj from './imgWorks/hotel.jpg';
-import naturePrj from './imgWorks/nature.jpg';
+import naturePrj from './imgWorks/nature.gif';
 import animPrj from  './imgWorks/bmw.gif';
 import countryPrj from  './imgWorks/countries.gif';
 import miamiPrj from  './imgWorks/miami.gif';
@@ -107,7 +107,7 @@ export const MyWorks = () => {
                     <div className={MyWorksSecondBlock}>
                         <WorksBox href={'https://coolcrazyfox.github.io/draggable-site/'} styleImg={hotelPrjImg}  descriptions={'Most Beautiful hotels'}
                                   name={'Hotels'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/3D-site/'} styleImg={naturePrjImg} descriptions={'Look at my 3d-site'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/3D-site/'} styleImg={naturePrjImg} descriptions={'Look at my nice 3d-site'}
                                   name={'lovely 3D-Site'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/anim-slider-site/'} styleImg={animPrjImg}  descriptions={'Look at my animation site'}
                                   name={'animation slider site'}/>
@@ -115,14 +115,14 @@ export const MyWorks = () => {
                                   name={'countries app'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
                                   name={'Miami'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}
-                                  name={'Weather-APP'}/>
+                        {/*<WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}*/}
+                        {/*          name={'Weather-APP'}/>*/}
                     </div>
                     <div className={MyWorksThirdBlock}>
+                        <WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}
+                                  name={'Weather-APP'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/calendar-app/'} styleImg={calendarPrjImg}  descriptions={'Look at my calendar-app'}
                                   name={'calendar'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/countries-app/'} styleImg={countryPrjImg}  descriptions={'Look at my countries-app'}
-                                  name={'countries app'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
                                   name={'Miami'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}
