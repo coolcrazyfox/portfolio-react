@@ -123,8 +123,8 @@ export const MyWorks = () => {
                                   name={'Weather-APP'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/calendar-app/'} styleImg={calendarPrjImg}  descriptions={'Look at my calendar-app'}
                                   name={'calendar'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
-                                  name={'Miami'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/vue-project/'} styleImg={miamiPrjImg}  descriptions={'Look at my Vue.JS-App'}
+                                  name={'Rick & Morty'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}
                                   name={'Weather-APP'}/>
                         <WorksBox href={''} styleImg={nextPrjImg}  descriptions={'My next project'}
