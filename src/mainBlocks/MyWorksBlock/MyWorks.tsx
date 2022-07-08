@@ -15,6 +15,7 @@ import miamiPrj from  './imgWorks/miami.gif';
 import weatherPrj from  './imgWorks/weather.gif';
 import calendarPrj from  './imgWorks/calendar.jpg';
 import r_mPrj from  './imgWorks/rick&morty.gif';
+import chessPrj from  './imgWorks/chess.gif';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
@@ -78,6 +79,9 @@ export const MyWorks = () => {
     const r_mPrjImg = {
         backgroundImage: `url(${r_mPrj})`
     }
+    const chessPrjImg = {
+        backgroundImage: `url(${chessPrj})`
+    }
 
     return (<div id={'MyWorksBlock'} className={blockTitle}>
         <Rotate top left>
@@ -129,8 +133,8 @@ export const MyWorks = () => {
                                   name={'calendar'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/vue-project/'} styleImg={r_mPrjImg}  descriptions={'Look at my Vue.JS-App'}
                                   name={'Rick & Morty'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/weather-nextjs-app/'} styleImg={weatherPrjImg}  descriptions={'Look at my weather-app'}
-                                  name={'Weather-APP'}/>
+                        <WorksBox href={'https://coolcrazyfox.github.io/chess-game/'} styleImg={chessPrjImg}  descriptions={'Look at my chess-app'}
+                                  name={'Chess-game-app'}/>
                         <WorksBox href={''} styleImg={nextPrjImg}  descriptions={'My next project'}
                                   name={'my next project'}/>
                     </div>
