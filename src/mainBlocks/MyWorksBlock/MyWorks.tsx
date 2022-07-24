@@ -135,7 +135,7 @@ export const MyWorks = () => {
                                   name={'Rick & Morty'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/chess-game/'} styleImg={chessPrjImg}  descriptions={'Look at my chess-app'}
                                   name={'Chess-game-app'}/>
-                        <WorksBox href={''} styleImg={nextPrjImg}  descriptions={'My next project'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/portfolio-v2/'} styleImg={nextPrjImg}  descriptions={'My next project'}
                                   name={'my next project'}/>
                     </div>
                 </div>
