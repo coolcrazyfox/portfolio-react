@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.72e2541d.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.d7e2f0e5.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.d7e2f0e5.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.ceeb0e75.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.ceeb0e75.js.map",
+    "main.js": "/portfolio-react/static/js/main.042f038a.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.042f038a.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.05942642.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.05942642.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/portfolio-react/static/css/2.6c0f60ba.chunk.css",
     "static/js/2.ccc3f43f.chunk.js": "/portfolio-react/static/js/2.ccc3f43f.chunk.js",
     "static/js/2.ccc3f43f.chunk.js.map": "/portfolio-react/static/js/2.ccc3f43f.chunk.js.map",
     "static/js/3.5583a378.chunk.js": "/portfolio-react/static/js/3.5583a378.chunk.js",
     "static/js/3.5583a378.chunk.js.map": "/portfolio-react/static/js/3.5583a378.chunk.js.map",
-    "static/js/4.1268e7d8.chunk.js": "/portfolio-react/static/js/4.1268e7d8.chunk.js",
-    "static/js/4.1268e7d8.chunk.js.map": "/portfolio-react/static/js/4.1268e7d8.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/portfolio-react/static/css/2.6c0f60ba.chunk.css.map",
     "static/css/main.72e2541d.chunk.css.map": "/portfolio-react/static/css/main.72e2541d.chunk.css.map",
@@ -37,6 +35,7 @@
     "static/media/html-5-icon.0bc5c6a6.png": "/portfolio-react/static/media/html-5-icon.0bc5c6a6.png",
     "static/media/javascript.cedf282f.gif": "/portfolio-react/static/media/javascript.cedf282f.gif",
     "static/media/linkedin.222eb5bc.gif": "/portfolio-react/static/media/linkedin.222eb5bc.gif",
+    "static/media/luxury-car.0f42845f.gif": "/portfolio-react/static/media/luxury-car.0f42845f.gif",
     "static/media/AboutMe.module.scss": "/portfolio-react/static/media/silk-folds.db47e285.gif",
     "static/media/miami.63a50040.gif": "/portfolio-react/static/media/miami.63a50040.gif",
     "static/media/music.7cee5e47.png": "/portfolio-react/static/media/music.7cee5e47.png",
@@ -54,10 +53,10 @@
     "static/media/webSite.e383567a.gif": "/portfolio-react/static/media/webSite.e383567a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.ceeb0e75.js",
+    "static/js/runtime-main.05942642.js",
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.ccc3f43f.chunk.js",
     "static/css/main.72e2541d.chunk.css",
-    "static/js/main.d7e2f0e5.chunk.js"
+    "static/js/main.042f038a.chunk.js"
   ]
 }
