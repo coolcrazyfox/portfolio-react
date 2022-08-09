@@ -16,6 +16,7 @@ import weatherPrj from  './imgWorks/weather.gif';
 import calendarPrj from  './imgWorks/calendar.jpg';
 import r_mPrj from  './imgWorks/rick&morty.gif';
 import chessPrj from  './imgWorks/chess.gif';
+import luxuryPrj from  './imgWorks/luxury-car.gif';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
@@ -82,6 +83,9 @@ export const MyWorks = () => {
     const chessPrjImg = {
         backgroundImage: `url(${chessPrj})`
     }
+    const luxuryPrjImg = {
+        backgroundImage: `url(${luxuryPrj})`
+    }
 
     return (<div id={'MyWorksBlock'} className={blockTitle}>
         <Rotate top left>
@@ -123,7 +127,7 @@ export const MyWorks = () => {
                                   name={'countries app'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/gallery-miami/'} styleImg={miamiPrjImg}  descriptions={'Look at my Miami-gallery'}
                                   name={'Miami'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/drive-react-website/'} styleImg={weatherPrjImg}  descriptions={'Look at my drive-website'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/drive-react-website/'} styleImg={luxuryPrjImg}  descriptions={'Look at my drive-website'}
                                   name={'Drive-Website'}/>
                     </div>
                     <div className={MyWorksThirdBlock}>
