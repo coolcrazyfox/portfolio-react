@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.72e2541d.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.042f038a.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.042f038a.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.6c401b0d.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.6c401b0d.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.05942642.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.05942642.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/portfolio-react/static/css/2.6c0f60ba.chunk.css",
@@ -30,6 +30,7 @@
     "static/media/css3.5888769b.png": "/portfolio-react/static/media/css3.5888769b.png",
     "static/media/error.3b8bd8e7.png": "/portfolio-react/static/media/error.3b8bd8e7.png",
     "static/media/flask.a3319b33.png": "/portfolio-react/static/media/flask.a3319b33.png",
+    "static/media/forest.9ed509e0.gif": "/portfolio-react/static/media/forest.9ed509e0.gif",
     "static/media/hanami.8c703be5.gif": "/portfolio-react/static/media/hanami.8c703be5.gif",
     "static/media/hotel.638c103f.jpg": "/portfolio-react/static/media/hotel.638c103f.jpg",
     "static/media/html-5-icon.0bc5c6a6.png": "/portfolio-react/static/media/html-5-icon.0bc5c6a6.png",
@@ -57,6 +58,6 @@
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.ccc3f43f.chunk.js",
     "static/css/main.72e2541d.chunk.css",
-    "static/js/main.042f038a.chunk.js"
+    "static/js/main.6c401b0d.chunk.js"
   ]
 }
