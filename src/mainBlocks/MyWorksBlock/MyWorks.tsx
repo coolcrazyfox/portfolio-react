@@ -17,6 +17,7 @@ import calendarPrj from  './imgWorks/calendar.jpg';
 import r_mPrj from  './imgWorks/rick&morty.gif';
 import chessPrj from  './imgWorks/chess.gif';
 import luxuryPrj from  './imgWorks/luxury-car.gif';
+import parallaxPrj from  './imgWorks/forest.gif';
 // @ts-ignore
 import Rotate from 'react-reveal/Fade'
 
@@ -86,6 +87,9 @@ export const MyWorks = () => {
     const luxuryPrjImg = {
         backgroundImage: `url(${luxuryPrj})`
     }
+    const parallaxPrjImg = {
+        backgroundImage: `url(${parallaxPrj})`
+    }
 
     return (<div id={'MyWorksBlock'} className={blockTitle}>
         <Rotate top left>
@@ -139,7 +143,7 @@ export const MyWorks = () => {
                                   name={'Rick & Morty'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/chess-game/'} styleImg={chessPrjImg}  descriptions={'Look at my chess-app'}
                                   name={'Chess-game-app'}/>
-                        <WorksBox href={'https://coolcrazyfox.github.io/Fairy-Forest/'} styleImg={chessPrjImg}  descriptions={'Look at my Parallax-site'}
+                        <WorksBox href={'https://coolcrazyfox.github.io/Fairy-Forest/'} styleImg={parallaxPrjImg}  descriptions={'Look at my Parallax-site'}
                                   name={'Chess-game-app'}/>
                         <WorksBox href={'https://coolcrazyfox.github.io/portfolio-v2/'} styleImg={nextPrjImg}  descriptions={'My next project'}
                                   name={'my next project'}/>
